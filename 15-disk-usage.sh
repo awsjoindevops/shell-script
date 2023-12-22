@@ -20,4 +20,4 @@ echo -e "message  :  $message"
 
 #echo $message | mail -s "HIGH DISK USAGE" punnamgoud.b23@gmail.com
 
-sh mail.sh "DevOps Team" "High Disk Usage" "$message" "info@joindevops.com" "ALERT High Disk Usage"
+sh mail.sh "DevOps Team" "High Disk Usage" "$message" "punnamgoud.b23@gmail.com" "ALERT High Disk Usage"
