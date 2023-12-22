@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# THIS IS COMMENT
+
+echo "PRINT - HELLO SHELL SCRIPTING"
