@@ -31,4 +31,3 @@ USAGE()
 
 
 echo "HELLo $NAME, $WISHES . I have been learning shell scipt"
-
