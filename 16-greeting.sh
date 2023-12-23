@@ -22,7 +22,7 @@ USAGE()
     esac
     done
 
-    if [ -z "$NAME"]; then
+    if [ -z "$NAME" ]; then
     echo "ERROR: -n is mandatory"
     USAGE
     exit 1
