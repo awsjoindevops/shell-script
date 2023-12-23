@@ -15,7 +15,7 @@ USAGE()
     while getops ":n:w:h" opt;do
     case $opt in
             n) NAME="$OPTARG";;
-            n) WISHES="$OPTARG";;
+            w) WISHES="$OPTARG";;
             \?) echo "INVALID OPTIONS: -$OPTARG" >&2; USAGE; exit;;
             ;) USAGE; exit;;
             h) USAGE; exit;;
