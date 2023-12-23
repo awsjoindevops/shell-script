@@ -11,7 +11,7 @@ USAGE()
     echo " -w, Specify the wishes. OPTIONAL. DEF is Good Morning"
     echo " -h, Display help and exit"
 
-
+}
     while getops ":n:w:h" opt; do
     case $opt in
             n) NAME="$OPTARG";;
